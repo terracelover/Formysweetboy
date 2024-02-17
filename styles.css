@@ -1,0 +1,61 @@
+#image-container {
+  display: none;
+}
+
+body {
+  background-color: lightpink;
+}
+
+h1 {
+  color: #d7576d;
+  font-size: 50px;
+  font-family: "Garamond bold", serif;
+  text-decoration: underline; /* Apply underline to h1 */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.yes-button,
+.no-button {
+  background-color: #ffc0cb;
+  color: white;
+}
+
+button:hover {
+  background-color: #ea8092;
+}
+
+.no-button:hover {
+  background-color: #cc0000;
+}
+
+h1,
+button {
+  margin-bottom: 10px; /* Apply margin to both h1 and buttons */
+  margin-top: 5px;
+}
+/* Additional CSS styles */
+#button-container {
+  text-align: center; /* Center-align the buttons */
+}
+/* Additional CSS styles */
+#button-container {
+  float: left; /* Align the button container to the left */
+  margin-right: 20px; /* Add some space to the right of the button container */
+}
+#permanent-image {
+  display: block;
+  margin-top: 20px; /* Add some space between the buttons and the image */
+  float: left; /* Align the image to the left */
+  clear: left; /* Ensure the image appears below the buttons */
+}
+#permanent-image img {
+    width: 400px; /* Set a larger width for the image */
+}
